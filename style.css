@@ -35,6 +35,7 @@ img { max-width: 100%; }
 .col-6 { width: calc(100% / 12 * 6); }
 .col-8 { width: calc(100% / 12 * 8); }
 .col-12 { width: 100%; }
+[class^="col"] { padding: 15px; }
 
 .button {
     padding: 5px 10px 5px 10px;
@@ -99,6 +100,10 @@ header nav::after {
     font-size: 70px;
     padding-bottom: 20px;
 }
+
+#jumbo-p { padding-bottom: 30px; }
+#disclaimer { padding: 20px 0; }
+
 
 /* sezioni */
 section {
