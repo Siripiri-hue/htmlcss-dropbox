@@ -35,7 +35,7 @@ img { max-width: 100%; }
 .col-6 { width: calc(100% / 12 * 6); }
 .col-8 { width: calc(100% / 12 * 8); }
 .col-12 { width: 100%; }
-[class^="col"] { padding: 15px; }
+/* [class^="col"] { padding: 15px; } */
 
 .button {
     padding: 5px 10px 5px 10px;
@@ -54,6 +54,13 @@ img { max-width: 100%; }
     background-color: white;
     color: black;
     padding: 5px 40px;
+}
+
+.long-blue-button {
+    margin: 0 auto;
+    padding: 5px 40px;
+    background-color: #0061FF;
+    color: white;
 }
 
 .row [class^="col"] {
@@ -122,6 +129,58 @@ section {
     display: inline-block;
     padding-right: 20px;
 }
+.form { padding-bottom: 20px; }
+
+    /* card  */
+.card { border: 1px solid gray; }
+.card-header {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.card-main, .card-footer { 
+    padding: 20px; 
+}
+/* card main */
+.plan-name { 
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.price { 
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.rate {
+    font-size: 12px;
+    color: gray;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+ul.features li {
+    padding-bottom: 10px;
+}
+/* .buy-now {
+    padding-bottom: 10px;
+} */
+/* card footer */
+.char-title {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+ul.characteristic li {
+    padding-bottom: 15px;
+}
+
+ul.characteristic li::before {
+    content: "✔";
+    display: inline-block;
+}
+
+#long-card .col-4 > .button {
+    float: right;
+}
+
+
 
 /* sezione cta */
 #cta-section { background-color: #B4D0E7; }
